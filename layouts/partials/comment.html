@@ -104,8 +104,8 @@
         {{- /* Commento Comment System */ -}}
         {{- $commento := $comment.commento | default dict -}}
         {{- if $commento.enable -}}
+            <script defer src="https://comments.baty.net/js/commento.js"></script>
             <div id="commento"></div>
-            {{- dict "Source" "https://cdn.commento.io/js/commento.js" "Defer" true | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
             <noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://commento.io/">Commento</a>.
             </noscript>
