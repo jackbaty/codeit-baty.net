@@ -126,7 +126,7 @@
         {{- $publisher = $params.seo.publisher | default dict | merge $publisher -}}
         "publisher": {
             "@type": "Organization",
-            "name": {{ $publisher.name | safeHTML }}
+            "name": {{ $publisher.name }}
             {{- $logo := $publisher.logoUrl -}}
             {{- with dict "Path" $logo "Resources" .Resources | partial "function/resource.html" -}}
                 ,"logo": {
@@ -144,7 +144,7 @@
         {{- with .Params.author | default .Site.Author.name | default (T "author") -}}
             "author": {
                 "@type": "Person",
-                "name": {{ . | safeHTML }}
+                "name": {{ "Jack Baty" }}
             },
         {{- end -}}
         "description": {{ .Description | safeHTML }}
