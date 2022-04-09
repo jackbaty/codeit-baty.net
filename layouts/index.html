@@ -18,6 +18,19 @@
             </div>
         {{- end -}}
 
+
+
+{{- /* Dailies */ -}}
+<div class="daily-home">
+	{{$dailies := ($.Site.GetPage "section" "daily").Pages.ByPublishDate.Reverse}}
+	{{ range first 1 $dailies }}
+		{{- .Render "summary" -}}
+	{{ end }}
+	<div class="daily-more"><a href="/daily/">Recent daily posts</a></div>
+</div>
+
+
+<h2>Recent Posts</h2>
         {{- /* Posts */ -}}
         {{- if ne $posts.enable false | and .Site.RegularPages -}}
             {{- /* Paginate */ -}}
