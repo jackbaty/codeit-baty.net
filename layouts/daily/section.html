@@ -34,6 +34,7 @@
             {{- end -}}
             {{- range $pages.Pages -}}
                 {{- .Render "summary" -}}
+            <hr class="divider">
             {{- end -}}
             {{- partial "paginator.html" . -}}
         {{- end -}}
