@@ -98,7 +98,8 @@ $table-thead-color: #ededed !default;
 $table-thead-color-dark: #20252b !default;
 
 // Color of the blockquote
-$blockquote-color: #FFD2D2 !default;
+$blockquote-color: rgba(255,229,100,.3)  !default;
+//$blockquote-color: #FFD2D2 !default;
 //$blockquote-color: #6bd6fd !default;
 $blockquote-color-dark: #59c5ec !default;
 // ========== Single Content ========== //
