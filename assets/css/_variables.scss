@@ -12,7 +12,8 @@ $global-font-weight: 400;
 $global-line-height: 1.5rem;
 
 // Color of the background
-$global-background-color: #fff !default;
+$global-background-color: #fdf7f1 !default;
+//$global-background-color: #fff !default;
 $global-background-color-dark: #292a2d !default;
 
 // Color of the text
@@ -24,11 +25,13 @@ $global-font-secondary-color: #a9a9b3 !default;
 $global-font-secondary-color-dark: #5d5d5f !default;
 
 // Color of the link
-$global-link-color: #161209 !default;
+$global-link-color: #990000 !default;
+//$global-link-color: #161209 !default;
 $global-link-color-dark: #a9a9b3 !default;
 
 // Color of the hover link
-$global-link-hover-color: #2d96bd !default;
+$global-link-hover-color: #990000 !default;
+//$global-link-hover-color: #2d96bd !default;
 $global-link-hover-color-dark: #fff !default;
 
 // Color of the border
@@ -55,6 +58,7 @@ $selection-color-dark: rgba(50, 112, 194, 0.4) !default;
 $header-height: 3.5rem !default;
 
 // Color of the header background
+$header-background-color: #990000 !default;
 $header-background-color: #f8f8f8 !default;
 $header-background-color-dark: #252627 !default;
 
@@ -64,6 +68,7 @@ $header-title-font-size: 1.5rem !default;
 
 // Color of the hover header item
 $header-hover-color: #161209 !default;
+$header-hover-color: #fff !default;
 $header-hover-color-dark: #fff !default;
 
 // Color of the search background
@@ -77,11 +82,11 @@ $toc-title-font-size: 1.2rem !default;
 $toc-content-font-size: 1rem !default;
 
 // Color of the single link
-$single-link-color: #2d96bd !default;
+$single-link-color: #990000 !default;
 $single-link-color-dark: #55bde2 !default;
 
 // Color of the hover single link
-$single-link-hover-color: #ef3982 !default;
+$single-link-hover-color: #990000 !default;
 $single-link-hover-color-dark: #bdebfc !default;
 
 // Color of the table background
@@ -93,7 +98,8 @@ $table-thead-color: #ededed !default;
 $table-thead-color-dark: #20252b !default;
 
 // Color of the blockquote
-$blockquote-color: #6bd6fd !default;
+$blockquote-color: #FFD2D2 !default;
+//$blockquote-color: #6bd6fd !default;
 $blockquote-color-dark: #59c5ec !default;
 // ========== Single Content ========== //
 
