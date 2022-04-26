@@ -38,13 +38,13 @@ facebook:
   Icon:
     Class: fab fa-facebook fa-fw
 
-# 006: Telegram
-telegram:
+#006: Glass
+glass:
   Weight: 6
-  Prefix: https://t.me/
-  Title: Telegram
+  Prefix: https://glass.photo/
+  Title: Glass
   Icon:
-    Class: fab fa-telegram-plane fa-fw
+    Src: svg/icons/glass.svg
 
 # 007: Medium
 medium:
@@ -441,7 +441,6 @@ researchgate:
 # 056: Mastodon
 mastodon:
   Weight: 56
-  Prefix: https://mastodon.social/
   Title: Mastodon
   Icon:
     Class: fab fa-mastodon fa-fw
@@ -518,3 +517,4 @@ orcid:
   Newtab: true
   Icon:
     Class: fab fa-orcid fa-fw
+
