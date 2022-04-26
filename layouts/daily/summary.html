@@ -19,7 +19,7 @@
 
     {{- /* Title */ -}}
     <h1 class="single-title" itemprop="name headline">
-    {{- if eq (.PublishDate.Format "2006-01-02") (now.Format "2006-01-02") -}}Today:&nbsp;{{- end -}}
+    {{- if eq (.PublishDate.Format "2006-01-02") (now.Format "2006-01-02") -}}<!-- Today:&nbsp; -->{{- end -}}
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </h1>
 
